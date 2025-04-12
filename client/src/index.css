@@ -1,4 +1,6 @@
-
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .navbar{
   background-color: black !important;
 }
@@ -10,4 +12,39 @@
 }
 .navbar-nav{
   margin-left: auto;
+}
+.smallimg{
+  height: 200px;
+  width: 100%;
+  border-radius: 5px !important;
+
+
+}
+h1{
+  font-size: 20px !important;
+}
+.btn{
+  background-color: black !important;
+  color: white !important;
+  box-shadow: none !important;
+}
+.divshadow{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-top: 20px;
+  border-radius: 5px !important;
+  padding: 20px !important;
+}
+.bigimg{
+  height: 350px;
+  border-radius: 5px !important;
+
+}
+input{
+  box-shadow: none !important;
+  margin-top: 10px;
+}
+h2{
+  font-size: 30px !important;
+  padding: 10px;
+  font-weight: bold !important;
 }
